@@ -301,7 +301,7 @@ footer img {
 .social {
   display: flex;
   width: 25px;
-  font-size: 23px;
+  font-size: 25px;
   padding-right: 125px;
 }
 .social i {
@@ -309,6 +309,14 @@ footer img {
 }
 .social i:hover {
   color: purple;
+}
+footer a {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: right;
+  z-index: 9;
 }
 
 /*  */
@@ -409,4 +417,12 @@ footer img {
     padding: 10px 0;
     color: white;
   }
+  .footer a {
+  font-size: 10px;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  align-items: right;
+  z-index: 9;
+}
 }
